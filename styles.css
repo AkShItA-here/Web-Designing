@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+.change{
+    text-decoration: none; /* Removes the underline */
+    color: white; /* Changes the color to white */
+}
+
+/* Header Styles */
+header {
+    background-color:orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* Search Bar Styles */
+.search-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-section input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color:orange;
+}
+
+/* Categories Section Styles */
+.categories-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.categories-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories-section li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.categories-section a {
+    text-decoration: none;
+    color: orange ;
+    font-weight: bold;
+}
+
+.categories-section a:hover {
+    color: orange ;
+}
+
+/* Reviews Section Styles */
+.reviews-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section .review {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.reviews-section .review:last-child {
+    border-bottom: none;
+}
+
+.reviews-section h3 {
+    margin: 0;
+    color: #333;
+}
+
+.reviews-section p {
+    color: #555;
+}

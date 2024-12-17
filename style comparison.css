@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+.change{
+    text-decoration: none; /* Removes the underline */
+    color: white; 
+}
+
+/* Header Styles */
+header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Comparison Section Styles */
+.comparison-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.comparison-table {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.product ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.product ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.product p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
